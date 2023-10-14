@@ -39,6 +39,11 @@ for (let item in collectiveMessage) {
  }
 }
 
+//format display of personal message
+function formatMessage(message) {
 
-// return and print output
-console.log('Hey you. ' + affirmation1)
+    const formatted = personalMessage.join('/n')
+    console.log(formatted)
+}
+
+formatMessage(personalMessage);
